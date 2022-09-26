@@ -1,0 +1,57 @@
+.divContainer {
+    display: flex
+}
+
+.divElements {
+    width: 300px;
+    height: 240px;
+    margin: 2rem;
+    padding: 1rem;
+    color: #000;
+    background-color: #ccc;
+    border: 1px solid #777;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.divElements:hover {
+    color: #222;
+    font-weight: bold;
+    background-color: #999;
+    border: none;
+    box-shadow: 4px 4px 10px #333;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+.divFirst {
+    color: #222;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.divSecond {
+    margin-bottom: 8px;
+    border: 1px solid #555;
+}
+
+.divOthers {
+    margin-bottom: 10px;
+}
+
+.details {
+    display: flex;
+    justify-content: end;
+}
+
+.detailsButton {
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.detailsButton:hover {
+    box-shadow: 0px 0px 8px 3px #ddd;
+}
